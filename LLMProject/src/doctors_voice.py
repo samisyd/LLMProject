@@ -28,6 +28,3 @@ def text_to_speech_with_elevenlabs(input_text, output_filepath):
     print("Audio saved as output_speech.mp3")   
     
     return output_filepath
-
-input_text="Hi this is Ai with Samina!"
-text_to_speech_with_elevenlabs(input_text, output_filepath="../audio_records/elevenlabs_autoplay.mp3")
